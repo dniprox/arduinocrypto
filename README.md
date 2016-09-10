@@ -1,3 +1,11 @@
+Forked from http://rweather.github.com/arduinolibs
+
+INO build tries to compile everything in the lib/ subdirectory, which is
+a real pain as they require additional libraries which are not installed
+on many systems.  Instead, I've just removed all libs except for the
+needed Crypto one.
+-EFP3
+
 
 Arduino Libraries
 =================
@@ -13,3 +21,6 @@ contains more information on the libraries and examples.
 For more information on these libraries, to report bugs, or to suggest
 improvements, please contact the author Rhys Weatherley via
 [email](mailto:rhys.weatherley@gmail.com).
+
+
+
