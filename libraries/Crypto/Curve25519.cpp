@@ -42,9 +42,9 @@
  */
 
 // Global switch to enable/disable AVR inline assembly optimizations.
-#if defined(__AVR__)
-#define CURVE25519_ASM_AVR 1
-#endif
+//#if defined(__AVR__)
+//#define CURVE25519_ASM_AVR 1
+//#endif
 
 // The overhead of clean() calls in mul(), reduceQuick(), etc can
 // add up to a lot of processing time during eval().  Only do such
